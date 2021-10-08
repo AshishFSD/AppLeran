@@ -283,15 +283,17 @@ footer {
              display: flex;
              flex-direction: column;
              gap: 10px;
+             width: 100%;
        }
       .content span{
             color: var(--green);
 
       }
-
+  
       .contact h2, p {
             font-size: 1em;
-      }
+      } 
+      
 
       .btn{
             margin: 1em auto;
