@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Roboto:wght@300&display=swap');
 
 
+
 :root{
 
       --balack:#212121;
@@ -15,6 +16,15 @@
       text-decoration: none;
       font-family: 'Roboto', sans-serif;
       font-family: 'Roboto Slab', serif;
+     
+}
+
+body{
+      width: 100vw;
+      height: 100vh;
+}
+img {
+      max-width: 420px;
 }
 
 header{
@@ -237,7 +247,7 @@ header .navlink a:hover{
 }
 .contact .contact-link{
 
-      min-width:400px;
+      min-width:20%;
       margin: 0 auto;
 }
 .contact .contact-link a {
@@ -265,38 +275,55 @@ footer {
 /***** Media query ****/
 
 @media screen and (max-width: 554px) {
+
+      body{
+            width: 100vw;
+            height: 100vw;
+      }
      
 #navlink {
       display: none;
 }
-
+/*
       .home, .card-section, .feture-row {
-            padding: 1rem 9%;
+            padding: 1rem ;
             display: flex;
             flex-direction: column-reverse;
-            margin-bottom: 10px;
+            margin-bottom: 10%;
             border-bottom: 2px solid var(--green);
             background-image: none;
             
-      }
+      }  */
+
+     .home {
+
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 20%;
+        padding: 0;
+     }
+
        .content{
-             display: flex;
-             flex-direction: column;
-             gap: 10px;
-             width: 100%;
+             font-size: 10px;
+             padding: 3%;
        }
-      .content span{
-            color: var(--green);
 
+      .home .content h2 {
+            font-size:2em;
+            width: 100%;
       }
-  
-      .contact h2, p {
-            font-size: 1em;
-      } 
-      
+      .home .content p {
+            font-size: 1.5em;
+            
+      }
 
+      .home img {
+            width: 100%;
+      }
       .btn{
             margin: 1em auto;
+            width: 100%;
       }
      
 
@@ -311,6 +338,57 @@ footer {
 
     
 
+ /**** CARD section  ***/
+
+ .card-section {
+       overflow: hidden;
+       display: flex;
+       flex-direction: column;
+ };
+     
+
+
+      .intro {
+            background-image: linear-gradient(to right, #ffffff  , #D5F7E6);
+            width: 100%;
+            
+      };
+      .feture {
+            overflow: hidden;
+            width: 100%;
+      }
+      .feture-row {
+            display: flex;
+            flex-direction: column;
+      }
+      .feture-row  img {
+            width: 100%;
+      }
+        .contact{
+              padding: 0;
+              margin: 10% 0;
+        }
+
+        .contact-heding{
+              width: 100%;
+        }
+        .contact .contact-link {
+              width: 100%;
+              text-align: center;
+        }
+        .contact .contact-link a{
+              margin: 0;
+              font-size: 2em;
+          
+              
+        }
+.feture-content{
+      width: 100%;
+}
+
+    
+
+
 
       .checkbtn{
             font-size: 2rem;
@@ -320,11 +398,6 @@ footer {
             flex-direction: row-reverse;
       }
 
-
-      .intro {
-            background-image: linear-gradient(to right, #ffffff  , #D5F7E6)
-      };
-    
 
        
 
