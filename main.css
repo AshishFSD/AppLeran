@@ -276,10 +276,7 @@ footer {
 
 @media screen and (max-width: 554px) {
 
-      body{
-            width: 100vw;
-            height: 100vw;
-      }
+     
      
 #navlink {
       display: none;
