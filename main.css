@@ -265,11 +265,6 @@ footer {
 /***** Media query ****/
 
 @media screen and (max-width: 880px) {
-
-      *{
-            margin: 0;
-            padding: 0;
-      }
      
 #navlink {
       display: none;
