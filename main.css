@@ -16,6 +16,7 @@
       text-decoration: none;
       font-family: 'Roboto', sans-serif;
       font-family: 'Roboto Slab', serif;
+      scroll-behavior: smooth;
      
 }
 
@@ -193,6 +194,7 @@ header .navlink a:hover{
 .feture-content{
       width: 50%;
       line-height: 2;
+      text-align: justify;
 }
 .leranmore{
       color: var(--green);
