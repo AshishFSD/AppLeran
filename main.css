@@ -38,7 +38,7 @@ header{
       justify-content: space-between;
       position: fixed;
       top: 0;
-      left: 0;
+      
      
 }
 
@@ -50,6 +50,7 @@ header >.logo{
 }
 header .logo >span{
       color: var(--balack);
+      font-weight: bold;
 }
 
 header .navlink a{
@@ -164,9 +165,10 @@ header .navlink a:hover{
       justify-content: center;
 }
 .card .fas{
-      font-size: 100px;
+      font-size: 80px;
       text-align: center;
       color: var(--green);
+      cursor: pointer;
       
 }
 
